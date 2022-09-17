@@ -1,0 +1,100 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:Запрошена главная страница
+INFO:werkzeug:127.0.0.1 - - [17/Sep/2022 22:25:30] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Sep/2022 22:25:30] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Запрос результатов поиска
+INFO:werkzeug:127.0.0.1 - - [17/Sep/2022 22:25:35] "GET /search?s=фыв HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Sep/2022 22:25:35] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Запрошена главная страница
+INFO:werkzeug:127.0.0.1 - - [17/Sep/2022 22:25:38] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Sep/2022 22:25:38] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Запрос результатов поиска
+INFO:werkzeug:127.0.0.1 - - [17/Sep/2022 22:25:43] "GET /search?s=asd HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Sep/2022 22:25:43] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Запрошена главная страница
+INFO:werkzeug:127.0.0.1 - - [17/Sep/2022 22:26:00] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Sep/2022 22:26:00] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Запрос результатов поиска
+INFO:werkzeug:127.0.0.1 - - [17/Sep/2022 22:26:01] "GET /search?s= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Sep/2022 22:26:01] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Sep/2022 22:26:01] "[36mGET /uploads/images/Yura.jpg HTTP/1.1[0m" 304 -
+INFO:root:Запрошена главная страница
+INFO:werkzeug:127.0.0.1 - - [17/Sep/2022 22:26:16] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Sep/2022 22:26:16] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Sep/2022 22:26:18] "GET /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Sep/2022 22:26:18] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Запрос на добавление нового поста
+INFO:werkzeug:127.0.0.1 - - [17/Sep/2022 22:26:46] "POST /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Sep/2022 22:26:46] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Sep/2022 22:26:46] "GET /uploads/images/Yura.jpg HTTP/1.1" 200 -
+INFO:root:Запрошена главная страница
+INFO:werkzeug:127.0.0.1 - - [17/Sep/2022 22:26:50] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Sep/2022 22:26:50] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Запрос результатов поиска
+INFO:werkzeug:127.0.0.1 - - [17/Sep/2022 22:26:58] "GET /search?s=от HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Sep/2022 22:26:58] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Sep/2022 22:26:58] "[36mGET /uploads/images/Yura.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Sep/2022 22:27:31] "GET /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Sep/2022 22:27:31] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Запрос на добавление нового поста
+INFO:werkzeug:127.0.0.1 - - [17/Sep/2022 22:27:51] "POST /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Sep/2022 22:27:51] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Sep/2022 22:27:51] "GET /uploads/images/IMG_20210912_115645.jpg HTTP/1.1" 200 -
+INFO:root:Запрошена главная страница
+INFO:werkzeug:127.0.0.1 - - [17/Sep/2022 22:27:56] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Sep/2022 22:27:56] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Запрос результатов поиска
+INFO:werkzeug:127.0.0.1 - - [17/Sep/2022 22:28:21] "GET /search?s= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Sep/2022 22:28:21] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Sep/2022 22:28:21] "[36mGET /uploads/images/Yura.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Sep/2022 22:28:21] "[36mGET /uploads/images/IMG_20210912_115645.jpg HTTP/1.1[0m" 304 -
+INFO:root:Запрошена главная страница
+INFO:werkzeug:127.0.0.1 - - [17/Sep/2022 22:28:23] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Sep/2022 22:28:23] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:Запрос результатов поиска
+ERROR:root:Нет файла с постами
+INFO:werkzeug:127.0.0.1 - - [17/Sep/2022 22:28:38] "GET /search?s= HTTP/1.1" 200 -
+INFO:root:Запрос результатов поиска
+ERROR:root:Нет файла с постами
+INFO:werkzeug:127.0.0.1 - - [17/Sep/2022 22:29:16] "GET /search?s= HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:Запрос результатов поиска
+INFO:werkzeug:127.0.0.1 - - [17/Sep/2022 22:29:26] "GET /search?s= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Sep/2022 22:29:26] "[36mGET /uploads/images/IMG_20210912_115645.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Sep/2022 22:29:26] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Sep/2022 22:29:26] "[36mGET /uploads/images/Yura.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:Запрошена главная страница
+INFO:werkzeug:127.0.0.1 - - [17/Sep/2022 22:29:41] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Sep/2022 22:29:41] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Запрос результатов поиска
+ERROR:root:Ошибка распаковки файла с постами
+INFO:werkzeug:127.0.0.1 - - [17/Sep/2022 22:29:44] "GET /search?s= HTTP/1.1" 200 -
+INFO:root:Запрос результатов поиска
+INFO:werkzeug:127.0.0.1 - - [17/Sep/2022 22:30:11] "GET /search?s= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Sep/2022 22:30:11] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Sep/2022 22:30:11] "[36mGET /uploads/images/Yura.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Sep/2022 22:30:11] "[36mGET /uploads/images/IMG_20210912_115645.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Sep/2022 22:30:30] "GET /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Sep/2022 22:30:30] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Запрос на добавление нового поста
+INFO:root:Загруженный файл не картинка
+INFO:werkzeug:127.0.0.1 - - [17/Sep/2022 22:30:47] "POST /post HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:Запрос результатов поиска
+INFO:werkzeug:127.0.0.1 - - [17/Sep/2022 22:33:16] "GET /search?s= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Sep/2022 22:33:16] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Запрошена главная страница
+INFO:werkzeug:127.0.0.1 - - [17/Sep/2022 22:33:23] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Sep/2022 22:33:23] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
